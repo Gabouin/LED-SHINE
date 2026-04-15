@@ -24,7 +24,8 @@ I found a video on [youtube](https://www.youtube.com/shorts/ahxGdakDI9g) of the 
 
 I took inspiration from it and made **my schematic** on KiCad : 
 <br>  
-<img width="1003" height="742" alt="Capture d&#39;écran 2026-04-15 153258" src="https://github.com/user-attachments/assets/ea808cfd-dff3-47c2-a728-d92e998bbaef" />
+<img width="1108" height="773" alt="image" src="https://github.com/user-attachments/assets/50ad7688-248e-4473-be07-e0f020c6c042" />
+
 
 
 
