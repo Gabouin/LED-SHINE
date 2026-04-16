@@ -1,16 +1,18 @@
 # LAMPED - A SIMPLE LIGHT CONTROL MECHANISM
 
-## IDEA AND SIMULATION
-
 This project was made for _RESOLUTION - WEEK 4_ and is basically 10 LEDs that shine in order (regulated by an LM3914) thanks to a potentiometer. 
-
-I started by making **simulation** on falstad to try plenty of other idea but I had to recreate the LM3914 in Falstad because it does not exist. I wanted to make like a game where the LEDs go from 1 to 10 at a speed that you choose and you have to click on a button at the **exact moment** where the 10th LED is lighted and then a buzzer sounds. This idea was going to use a NE555 and a LM3914 but **I did't arrive to make it works** so I made something more simple : _this project._
-<br>
-<br>
-<img width="566" height="764" alt="Capture d&#39;écran 2026-04-15 153417" src="https://github.com/user-attachments/assets/879335f3-b28f-446f-b8a0-703d2a853a6e" />
-
-> What I ended up with on Falstad... (It's not working and it's supposed to be the first idea I explained before)
 <br>  
+It's a visual experience designed to look like a small lamp, using the logic of the LM3914 driver to control an array of LEDs via a potentiometer. It’s perfect for a desk ornament, offering a fun, interactive lighting effect.
+<br>   
+
+## FEATURES
+The board does:
+
+**Interactive Light Control** : The small potentiometer allows you to sequentially activate the 10 LEDs, making the "lamp" brighter or dimmer.
+
+**Cool Aesthetics** : The LEDs are arranged in a circular pattern to mimic the look of a traditional light bulb, giving it a unique visual style.
+
+**USB Powered** : It plugs into any standard 5V USB port, making it easy to power at your desk or workstation. You could even create a small 3d print base where you plug this PCB and so you can have a small desk lamp !
 
 ## SCHEMATIC
 
@@ -26,6 +28,22 @@ I took inspiration from it and made **my schematic** on KiCad :
 <br>  
 <img width="1108" height="773" alt="image" src="https://github.com/user-attachments/assets/50ad7688-248e-4473-be07-e0f020c6c042" />
 
+## PCB
 
+<img width="611" height="667" alt="Capture d&#39;écran 2026-04-16 223254" src="https://github.com/user-attachments/assets/551ddfc6-42dc-4d55-915e-4d32806ed0e6" />
+<img width="671" height="667" alt="Capture d&#39;écran 2026-04-16 223301" src="https://github.com/user-attachments/assets/a0bc0a14-ce5e-4e9b-a03c-138d66fac4d7" />
 
+## ASSEMBLY
+
+**LED Placement** : The circular LED array defines the look. Align all 10 LEDs with the correct polarity (Cathode to the IC pins) to ensure they all work.
+
+**Component Height** : Start with the lower components like resistors and the IC socket before soldering the LEDs, potentiometer, and USB connector.
+
+**USB Connector** : Place the USB-A connector on the bottom edge of the board so it can plug in easily.
+
+## USAGE
+
+Connect the LAMPED board to a 5V USB power source (computer port or adapter).
+
+Turn the small potentiometer to see the LEDs light up sequentially, increasing or decreasing the overall brightness.
 
