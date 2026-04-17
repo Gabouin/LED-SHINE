@@ -1,6 +1,7 @@
 # LAMPED - A SIMPLE LIGHT CONTROL MECHANISM
 
-<img width="889" height="453" alt="image" src="https://github.com/user-attachments/assets/65f81e23-b928-4d65-88c3-824c8dd67663" />
+<img width="803" height="448" alt="image" src="https://github.com/user-attachments/assets/79f0fd06-d780-490f-a6a7-fe14eaa620d1" />
+
 <br> 
 <br>
 
