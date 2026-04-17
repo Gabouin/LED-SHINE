@@ -1,7 +1,7 @@
 # LAMPED - A SIMPLE LIGHT CONTROL MECHANISM
 
 <img width="889" height="453" alt="image" src="https://github.com/user-attachments/assets/65f81e23-b928-4d65-88c3-824c8dd67663" />
-<br>
+<br> 
 <br>
 
 This project was made for _RESOLUTION - WEEK 4_ and is basically 10 LEDs that shine in order (regulated by an LM3914) thanks to a potentiometer. 
@@ -23,7 +23,7 @@ The board does:
 I found a video on [youtube](https://www.youtube.com/shorts/ahxGdakDI9g) of the project I wanted to do and found the **good wiring diagram** to make it : 
 <br>  
 <br>  
-<img width="678" height="742" alt="Capture d&#39;écran 2026-04-15 152251" src="https://github.com/user-attachments/assets/b07091f9-7281-42e1-9b71-18b77746e0a5" />
+<img width="338" height="371" alt="Capture d&#39;écran 2026-04-15 152251" src="https://github.com/user-attachments/assets/b07091f9-7281-42e1-9b71-18b77746e0a5" />
 <br>  
 <br>  
 <br>  
